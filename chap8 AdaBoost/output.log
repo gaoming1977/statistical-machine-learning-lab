@@ -1,0 +1,51 @@
+"C:\g.Programs\Python\statistical machine learning lab\venv\Scripts\python.exe" "C:/g.Programs/Python/statistical machine learning lab/chap8 AdaBoost/main.py"
+	============ Chap8 AdaBoost ============
+	 ===== Do Initializing =====
+model is initialized...
+	 ===== Do Training =====
+Training begin >>>
+
+	 category number is 3
+	 so, there will be 3.0 classifiers
+
+build 0-1 classifier...
+train epoch 0: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 1: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 2: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 3: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 4: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 5: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 6: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 7: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 8: error is [[0.]], A[2] < 1.9020000000000008
+train epoch 9: error is [[0.]], A[2] < 1.9020000000000008
+build 0-2 classifier...
+train epoch 0: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 1: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 2: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 3: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 4: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 5: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 6: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 7: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 8: error is [[0.]], A[2] < 1.9120000000000008
+train epoch 9: error is [[0.]], A[2] < 1.9120000000000008
+build 1-2 classifier...
+train epoch 0: error is [[0.06666667]], A[3] < 1.6000000000000005
+train epoch 1: error is [[0.11904762]], A[2] >= 4.849999999999996
+train epoch 2: error is [[0.16418919]], A[2] < 5.071999999999996
+train epoch 3: error is [[0.25074769]], A[0] >= 6.51999999999999
+train epoch 4: error is [[0.29752577]], A[3] < 1.7200000000000006
+train epoch 5: error is [[0.32756228]], A[1] >= 2.6120000000000005
+train epoch 6: error is [[0.29103852]], A[2] >= 4.405999999999997
+train epoch 7: error is [[0.26653684]], A[2] < 5.1459999999999955
+train epoch 8: error is [[0.29995534]], A[1] >= 3.008000000000001
+train epoch 9: error is [[0.33602373]], A[3] < 1.7200000000000006
+
+<<< Training end
+	 ===== Do Testing =====
+ Test Result is:
+['versicolor', 'versicolor', 'virginica', 'virginica', 'versicolor', 'versicolor', 'setosa', 'setosa', 'setosa', 'setosa', 'virginica', 'versicolor', 'virginica', 'virginica']
+ Test result precision is 92.86%
+
+Process finished with exit code 0
